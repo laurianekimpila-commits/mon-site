@@ -1,0 +1,1425 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    c:\Users\DELL\Pictures\WhatsApp Image 2026-08-29 at 14.49.43.jpeg
+    <img src="./WhatsApp Image 2026-08-29 at 14.49.43.jpeg" alt="" width="300" height="500">
+    <!DOCTYPE html>
+<html lang="fr">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BOUK-TECH | Formation numérique</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: #ffffff;
+            color: #111827;
+        }
+
+        /* ================= HEADER ================= */
+
+        header {
+            width: 100%;
+            height: 78px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 8px 5%;
+            border-bottom: 1px solid #e5e7eb;
+            background: white;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 80px;
+            height: auto;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 28px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #111827;
+            font-size: 13px;
+            font-weight: bold;
+            padding: 28px 0;
+        }
+
+        nav a:hover,
+        nav a.active {
+            color: #075be8;
+            border-bottom: 2px solid #075be8;
+        }
+
+        .header-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            padding: 12px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: bold;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .btn-blue {
+            background: #075be8;
+            color: white;
+            border: 1px solid #075be8;
+        }
+
+        .btn-white {
+            background: white;
+            color: #075be8;
+            border: 1px solid #075be8;
+        }
+
+        /* ================= ACCUEIL ================= */
+
+        .hero {
+            min-height: 480px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px 5%;
+            gap: 30px;
+        }
+
+        .hero-text {
+            width: 45%;
+        }
+
+        .hero-text h1 {
+            font-size: 37px;
+            line-height: 1.15;
+            margin-bottom: 20px;
+        }
+
+        .hero-text h1 span {
+            color: #075be8;
+        }
+
+        .hero-text p {
+            font-size: 14px;
+            line-height: 1.8;
+            color: #4b5563;
+            margin-bottom: 25px;
+            max-width: 500px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 22px;
+        }
+
+        .contact-mini {
+            display: flex;
+            gap: 25px;
+            font-size: 12px;
+            color: #4b5563;
+        }
+
+        .hero-image {
+            width: 50%;
+            min-height: 330px;
+            border-radius: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(135deg, #eef5ff, #ffffff);
+        }
+
+        .person {
+            width: 230px;
+            height: 270px;
+            background: #075be8;
+            border-radius: 110px 110px 35px 35px;
+            position: relative;
+            margin-top: 40px;
+        }
+
+        .person::before {
+            content: "";
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background: #f0b58c;
+            border-radius: 50%;
+            top: -70px;
+            left: 65px;
+        }
+
+        .person::after {
+            content: "BT";
+            position: absolute;
+            color: white;
+            font-size: 35px;
+            font-weight: bold;
+            top: 100px;
+            left: 90px;
+        }
+
+        .code-box {
+            position: absolute;
+            background: #075be8;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .code1 {
+            top: 40px;
+            left: 40px;
+        }
+
+        .code2 {
+            top: 80px;
+            right: 45px;
+        }
+
+        .code3 {
+            bottom: 45px;
+            right: 30px;
+        }
+
+        /* ================= STATISTIQUES ================= */
+
+        .stats {
+            margin: 0 5% 50px;
+            background: linear-gradient(90deg, #075be8, #1469ef);
+            color: white;
+            border-radius: 14px;
+            padding: 25px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .stat {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            border-right: 1px solid rgba(255,255,255,0.25);
+            padding: 5px 15px;
+        }
+
+        .stat:last-child {
+            border-right: none;
+        }
+
+        .stat-icon {
+            width: 48px;
+            height: 48px;
+            background: rgba(255,255,255,0.18);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 23px;
+        }
+
+        .stat h3 {
+            font-size: 24px;
+        }
+
+        .stat p {
+            font-size: 12px;
+            margin-top: 4px;
+        }
+
+        /* ================= SECTIONS ================= */
+
+        section {
+            padding: 70px 5%;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .section-title h2 {
+            font-size: 30px;
+            margin-bottom: 12px;
+        }
+
+        .section-title p {
+            color: #6b7280;
+            font-size: 13px;
+        }
+
+        .blue-line {
+            width: 40px;
+            height: 3px;
+            background: #075be8;
+            margin: 12px auto;
+        }
+
+        /* ================= FORMATIONS ================= */
+
+        .formations {
+            background: #fff;
+        }
+
+        .formation-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+
+        .formation-card {
+            border: 1px solid #e5e7eb;
+            border-radius: 10px;
+            overflow: hidden;
+            background: white;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+            transition: 0.3s;
+        }
+
+        .formation-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.10);
+        }
+
+        .formation-image {
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 55px;
+        }
+
+        .excel {
+            background: #c9f0ce;
+        }
+
+        .web {
+            background: #132f61;
+        }
+
+        .ia {
+            background: #30247b;
+        }
+
+        .informatique {
+            background: #ffb52c;
+        }
+
+        .formation-content {
+            padding: 15px;
+        }
+
+        .formation-content h3 {
+            font-size: 15px;
+            margin-bottom: 12px;
+        }
+
+        .formation-content p {
+            font-size: 12px;
+            line-height: 1.7;
+            color: #4b5563;
+            min-height: 95px;
+        }
+
+        .program {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid #dbe4f0;
+            border-radius: 5px;
+            padding: 9px;
+            color: #075be8;
+            text-decoration: none;
+            font-size: 11px;
+            font-weight: bold;
+        }
+
+        /* ================= CTA ================= */
+
+        .cta {
+            margin-top: 30px;
+            background: #075be8;
+            color: white;
+            border-radius: 10px;
+            padding: 20px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .cta h3 {
+            font-size: 17px;
+            margin-bottom: 7px;
+        }
+
+        .cta p {
+            font-size: 11px;
+        }
+
+        /* ================= A PROPOS ================= */
+
+        .about {
+            background: #fff;
+        }
+
+        .about-container {
+            display: grid;
+            grid-template-columns: 45% 55%;
+            gap: 45px;
+            align-items: center;
+        }
+
+        .about-image {
+            height: 300px;
+            background: linear-gradient(135deg, #eef5ff, #ffffff);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 100px;
+            color: #075be8;
+            font-weight: bold;
+        }
+
+        .about-text h2 {
+            font-size: 27px;
+            margin-bottom: 20px;
+        }
+
+        .about-text p {
+            font-size: 13px;
+            color: #4b5563;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        .about-features {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-top: 30px;
+        }
+
+        .feature {
+            text-align: center;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 15px 8px;
+        }
+
+        .feature-icon {
+            font-size: 25px;
+            color: #075be8;
+            margin-bottom: 8px;
+        }
+
+        .feature h4 {
+            font-size: 11px;
+            margin-bottom: 5px;
+        }
+
+        .feature p {
+            font-size: 9px;
+            line-height: 1.5;
+            color: #6b7280;
+        }
+
+        .mission {
+            margin-top: 25px;
+            background: #075be8;
+            color: white;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .mission h3 {
+            margin-bottom: 8px;
+        }
+
+        .mission p {
+            color: white;
+            font-size: 11px;
+        }
+
+        /* ================= SERVICES ================= */
+
+        .services {
+            background: #f9fafb;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+
+        .service-card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 9px;
+            padding: 25px 15px;
+            text-align: center;
+        }
+
+        .service-icon {
+            font-size: 35px;
+            color: #075be8;
+            margin-bottom: 15px;
+        }
+
+        .service-card h3 {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .service-card p {
+            font-size: 11px;
+            color: #6b7280;
+            line-height: 1.7;
+        }
+
+        /* ================= CONTACT ================= */
+
+        .contact-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .contact-box {
+            border: 1px solid #e5e7eb;
+            border-radius: 10px;
+            padding: 25px;
+        }
+
+        .contact-item {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 22px;
+        }
+
+        .contact-item-icon {
+            color: #075be8;
+            font-size: 20px;
+        }
+
+        .contact-item h4 {
+            font-size: 11px;
+            color: #6b7280;
+            margin-bottom: 5px;
+        }
+
+        .contact-item p {
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .contact-form {
+            display: grid;
+            gap: 12px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #d9dee7;
+            border-radius: 5px;
+            outline: none;
+            font-size: 12px;
+        }
+
+        textarea {
+            height: 100px;
+            resize: none;
+        }
+
+        /* ================= CONNEXION / INSCRIPTION ================= */
+
+        .auth-section {
+            background: #f8fafc;
+        }
+
+        .auth-container {
+            max-width: 430px;
+            margin: auto;
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+        }
+
+        .auth-container h2 {
+            text-align: center;
+            font-size: 25px;
+            margin-bottom: 8px;
+        }
+
+        .auth-container .blue-line {
+            margin-bottom: 25px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 11px;
+            font-weight: bold;
+            margin-bottom: 6px;
+        }
+
+        .auth-container button {
+            width: 100%;
+            border: none;
+            padding: 13px;
+            background: #075be8;
+            color: white;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .auth-link {
+            text-align: center;
+            font-size: 11px;
+            margin-top: 15px;
+        }
+
+        .auth-link a {
+            color: #075be8;
+            text-decoration: none;
+        }
+
+        /* ================= FOOTER ================= */
+
+        footer {
+            background: #0b1b35;
+            color: white;
+            padding: 30px 5%;
+            text-align: center;
+        }
+
+        footer h3 {
+            color: #fff;
+            margin-bottom: 8px;
+        }
+
+        footer p {
+            font-size: 11px;
+            color: #cbd5e1;
+        }
+
+        /* ================= RESPONSIVE ================= */
+
+        @media (max-width: 900px) {
+
+            nav {
+                display: none;
+            }
+
+            .hero {
+                flex-direction: column;
+            }
+
+            .hero-text,
+            .hero-image {
+                width: 100%;
+            }
+
+            .formation-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .stat {
+                border-right: none;
+            }
+
+            .about-container,
+            .contact-container {
+                grid-template-columns: 1fr;
+            }
+
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+
+            header {
+                height: 65px;
+            }
+
+            .logo img {
+                width: 65px;
+            }
+
+            .header-buttons .btn {
+                padding: 8px 10px;
+                font-size: 10px;
+            }
+
+            .hero-text h1 {
+                font-size: 29px;
+            }
+
+            .formation-grid,
+            .services-grid,
+            .stats,
+            .about-features {
+                grid-template-columns: 1fr;
+            }
+
+            .cta {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+            }
+
+            section {
+                padding: 45px 5%;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header>
+
+    <div class="logo">
+        <img src="images/logo.png" alt="Logo BOUK-TECH">
+    </div>
+
+    <nav>
+        <a href="#accueil" class="active">ACCUEIL</a>
+        <a href="#formations">FORMATIONS</a>
+        <a href="#apropos">À PROPOS</a>
+        <a href="#services">SERVICES</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+
+    <div class="header-buttons">
+        <a href="#connexion" class="btn btn-blue">Se connecter</a>
+        <a href="#inscription" class="btn btn-white">S'inscrire</a>
+    </div>
+
+</header>
+
+
+<!-- ================= ACCUEIL ================= -->
+
+<section class="hero" id="accueil">
+
+    <div class="hero-text">
+
+        <h1>
+            Apprenez aujourd’hui,<br>
+            maîtrisez demain avec<br>
+            <span>BOUK-TECH</span>
+        </h1>
+
+        <p>
+            Nous accompagnons les étudiants et professionnels
+            dans l’acquisition des compétences numériques
+            à travers des formations pratiques et accessibles.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#formations" class="btn btn-blue">
+                Découvrir nos formations
+            </a>
+
+            <a href="#contact" class="btn btn-white">
+                Nous contacter
+            </a>
+        </div>
+
+        <div class="contact-mini">
+            <span>📞 +237 658478947</span>
+            <span>✉ bouk-tech@gmail.com</span>
+        </div>
+
+    </div>
+
+
+    <div class="hero-image">
+
+        <div class="code-box code1">&lt;/&gt;</div>
+        <div class="code-box code2">{ }</div>
+        <div class="code-box code3">AI</div>
+
+        <div class="person"></div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= STATISTIQUES ================= -->
+
+<div class="stats">
+
+    <div class="stat">
+        <div class="stat-icon">🎓</div>
+        <div>
+            <h3>50+</h3>
+            <p>Étudiants formés</p>
+        </div>
+    </div>
+
+    <div class="stat">
+        <div class="stat-icon">📖</div>
+        <div>
+            <h3>4</h3>
+            <p>Formations disponibles</p>
+        </div>
+    </div>
+
+    <div class="stat">
+        <div class="stat-icon">👥</div>
+        <div>
+            <h3>100%</h3>
+            <p>Pratique</p>
+        </div>
+    </div>
+
+    <div class="stat">
+        <div class="stat-icon">🏆</div>
+        <div>
+            <h3>Qualité</h3>
+            <p>Formateurs expérimentés</p>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- ================= FORMATIONS ================= -->
+
+<section class="formations" id="formations">
+
+    <div class="section-title">
+
+        <h2>Nos formations</h2>
+
+        <div class="blue-line"></div>
+
+        <p>
+            Découvrez nos formations conçues pour développer
+            vos compétences numériques.
+        </p>
+
+    </div>
+
+
+    <div class="formation-grid">
+
+        <!-- Excel -->
+
+        <div class="formation-card">
+
+            <div class="formation-image excel">
+                📊
+            </div>
+
+            <div class="formation-content">
+
+                <h3>Les bases sur Excel</h3>
+
+                <p>
+                    Apprenez à utiliser Excel pour gérer vos données,
+                    créer des tableaux et des graphiques efficacement.
+                </p>
+
+                <a href="#" class="program">
+                    Voir le programme
+                    <span>→</span>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Web -->
+
+        <div class="formation-card">
+
+            <div class="formation-image web">
+                💻
+            </div>
+
+            <div class="formation-content">
+
+                <h3>Développement Web</h3>
+
+                <p>
+                    Apprenez à créer des sites web modernes avec
+                    HTML, CSS, JavaScript et des outils professionnels.
+                </p>
+
+                <a href="#" class="program">
+                    Voir le programme
+                    <span>→</span>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- IA -->
+
+        <div class="formation-card">
+
+            <div class="formation-image ia">
+                🧠
+            </div>
+
+            <div class="formation-content">
+
+                <h3>Intelligence Artificielle (IA)</h3>
+
+                <p>
+                    Découvrez les fondamentaux de l'IA et apprenez
+                    à concevoir des modèles intelligents et innovants.
+                </p>
+
+                <a href="#" class="program">
+                    Voir le programme
+                    <span>→</span>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Informatique -->
+
+        <div class="formation-card">
+
+            <div class="formation-image informatique">
+                🖥️
+            </div>
+
+            <div class="formation-content">
+
+                <h3>Initiation à l'informatique</h3>
+
+                <p>
+                    Maîtrisez les bases de l'informatique et découvrez
+                    les outils essentiels pour bien commencer.
+                </p>
+
+                <a href="#" class="program">
+                    Voir le programme
+                    <span>→</span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="cta">
+
+        <div>
+            <h3>Prêt à développer vos compétences numériques ?</h3>
+
+            <p>
+                Rejoignez BOUK-TECH dès aujourd'hui et construisez votre avenir.
+            </p>
+        </div>
+
+        <a href="#inscription" class="btn btn-white">
+            S'inscrire maintenant →
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= A PROPOS ================= -->
+
+<section class="about" id="apropos">
+
+    <div class="about-container">
+
+        <div class="about-image">
+            BT
+        </div>
+
+        <div class="about-text">
+
+            <h2>À propos de BOUK-TECH</h2>
+
+            <div class="blue-line" style="margin-left:0;"></div>
+
+            <p>
+                BOUK-TECH est une plateforme d'apprentissage numérique
+                qui a pour mission de former, accompagner et valoriser
+                les étudiants et professionnels dans le domaine des
+                nouvelles technologies.
+            </p>
+
+            <p>
+                Notre objectif est de rendre la formation numérique
+                accessible à tous, avec des méthodes innovantes et
+                pratiques.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="about-features">
+
+        <div class="feature">
+            <div class="feature-icon">📚</div>
+            <h4>Formations pratiques</h4>
+            <p>Apprentissage par des projets concrets.</p>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">👨‍🎓</div>
+            <h4>Formateurs qualifiés</h4>
+            <p>Experts dans leurs domaines.</p>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">🤝</div>
+            <h4>Accompagnement</h4>
+            <p>Suivi personnalisé et assistance continue.</p>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">♿</div>
+            <h4>Accessibilité</h4>
+            <p>Formation en ligne et flexible.</p>
+        </div>
+
+    </div>
+
+
+    <div class="mission">
+
+        <h3>Notre mission</h3>
+
+        <p>
+            Démocratiser l'éducation numérique et préparer
+            la nouvelle génération aux métiers du futur.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+
+<section class="services" id="services">
+
+    <div class="section-title">
+
+        <h2>Nos services</h2>
+
+        <div class="blue-line"></div>
+
+        <p>
+            Nous offrons plusieurs services pour vous accompagner
+            dans votre parcours d'apprentissage.
+        </p>
+
+    </div>
+
+
+    <div class="services-grid">
+
+        <div class="service-card">
+            <div class="service-icon">💻</div>
+            <h3>Formations en ligne</h3>
+            <p>
+                Accédez à des formations de qualité
+                depuis chez vous.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">📋</div>
+            <h3>Projets pratiques</h3>
+            <p>
+                Mettez en pratique vos connaissances
+                à travers des projets réels.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">🛡️</div>
+            <h3>Assistance & Suivi</h3>
+            <p>
+                Bénéficiez d'un suivi personnalisé
+                et d'une assistance continue.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">📄</div>
+            <h3>Ressources pédagogiques</h3>
+            <p>
+                Accédez à des supports de cours,
+                exercices et ressources variées.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">📜</div>
+            <h3>Certification</h3>
+            <p>
+                Obtenez une attestation à la fin
+                de chaque formation.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">👨‍💻</div>
+            <h3>Orientation</h3>
+            <p>
+                Nous vous guidons dans le choix
+                de votre parcours professionnel.
+            </p>
+        </div>
+
+    </div>
+
+
+    <div class="cta">
+
+        <div>
+            <h3>Notre priorité, votre réussite !</h3>
+
+            <p>
+                Nous nous engageons à offrir le meilleur
+                de la formation numérique.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact">
+
+    <div class="section-title">
+
+        <h2>Contactez-nous</h2>
+
+        <div class="blue-line"></div>
+
+        <p>
+            Nous sommes à votre écoute ! N'hésitez pas à nous
+            contacter pour toute information ou demande.
+        </p>
+
+    </div>
+
+
+    <div class="contact-container">
+
+        <div class="contact-box">
+
+            <div class="contact-item">
+
+                <div class="contact-item-icon">📞</div>
+
+                <div>
+                    <h4>Téléphone</h4>
+                    <p>+237 658478947</p>
+                </div>
+
+            </div>
+
+
+            <div class="contact-item">
+
+                <div class="contact-item-icon">✉</div>
+
+                <div>
+                    <h4>Email</h4>
+                    <p>bouk-tech@gmail.com</p>
+                </div>
+
+            </div>
+
+
+            <div class="contact-item">
+
+                <div class="contact-item-icon">📍</div>
+
+                <div>
+                    <h4>Adresse</h4>
+                    <p>Sangmélima, Cameroun</p>
+                </div>
+
+            </div>
+
+
+            <div class="contact-item">
+
+                <div class="contact-item-icon">🕐</div>
+
+                <div>
+                    <h4>Horaires</h4>
+                    <p>Lundi - Samedi : 08h00 - 18h00</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="contact-box">
+
+            <h3 style="margin-bottom:20px;">
+                Envoyez-nous un message
+            </h3>
+
+            <form class="contact-form">
+
+                <input
+                    type="text"
+                    placeholder="Votre nom"
+                >
+
+                <input
+                    type="email"
+                    placeholder="Votre email"
+                >
+
+                <input
+                    type="text"
+                    placeholder="Sujet"
+                >
+
+                <textarea
+                    placeholder="Votre message"
+                ></textarea>
+
+                <button
+                    type="submit"
+                    class="btn btn-blue"
+                >
+                    Envoyer le message →
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONNEXION ================= -->
+
+<section class="auth-section" id="connexion">
+
+    <div class="auth-container">
+
+        <h2>Se connecter</h2>
+
+        <div class="blue-line"></div>
+
+        <form>
+
+            <div class="form-group">
+
+                <label>Email</label>
+
+                <input
+                    type="email"
+                    placeholder="Entrez votre email"
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Mot de passe</label>
+
+                <input
+                    type="password"
+                    placeholder="Entrez votre mot de passe"
+                >
+
+            </div>
+
+            <button type="submit">
+                Se connecter
+            </button>
+
+        </form>
+
+        <p class="auth-link">
+            Pas encore de compte ?
+            <a href="#inscription">S'inscrire</a>
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ================= INSCRIPTION ================= -->
+
+<section class="auth-section" id="inscription">
+
+    <div class="auth-container">
+
+        <h2>S'inscrire</h2>
+
+        <div class="blue-line"></div>
+
+        <form>
+
+            <div class="form-group">
+
+                <label>Nom complet</label>
+
+                <input
+                    type="text"
+                    placeholder="Entrez votre nom complet"
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Email</label>
+
+                <input
+                    type="email"
+                    placeholder="Entrez votre email"
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Mot de passe</label>
+
+                <input
+                    type="password"
+                    placeholder="Créer un mot de passe"
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Confirmer le mot de passe</label>
+
+                <input
+                    type="password"
+                    placeholder="Confirmez votre mot de passe"
+                >
+
+            </div>
+
+
+            <button type="submit">
+                S'inscrire
+            </button>
+
+        </form>
+
+        <p class="auth-link">
+            Déjà un compte ?
+            <a href="#connexion">Se connecter</a>
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <h3>BOUK-TECH</h3>
+
+    <p>
+        Apprenez aujourd'hui, maîtrisez demain.
+    </p>
+
+    <p style="margin-top:12px;">
+        © 2026 BOUK-TECH - Tous droits réservés.
+    </p>
+
+</footer>
+
+</body>
+</html>
